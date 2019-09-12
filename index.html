@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="bootstrap.css">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Faster+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -214,15 +215,24 @@ Community engagement and involvement in the school is important to me as Princip
 			</div>
 		</div>
 	</section>
-		<section>
-			<h3 class="bg-dark text-warning text-center"><strong>&copy;2019-->Designed By<br>AMRIT THAPA MAGAR</strong></h3>
-	</section>
+    <div class="container-fluid bg-dark">
+			<h3 class="text-warning text-center" id="id1"></h3>
+			<div class="container-fluid bg-dark">
+	<h3 class="text-light text-center"><strong>&copy;2019SMILIONAIRE</strong></h3>
+    </div>
 		<script type="text/javascript">
 		function principal(){
 			document.write("I believe my role as an educator is to guide and nurture the next generation to establish skills to achieve health, respect, prosperity and fulfillment. I am passionate about students being empowered to succeed. As Principal, I use all tools available to inspire staff, students and community to work together to promote student achievement and well-being. I am an avid supporter of effective and innovative professional development that encourages teachers and principals to be reflective and to continuously examine our practice to provide quality teaching and learning for each student. My role as Principal is to keep up with latest trends and research and be an active partner in the school's professional development. The ability to be innovative and creative is important to me. I enjoy being challenged and inspired by the people around me. I aim to enthuse and challenge staff and students to also be inventive and imaginative in their learning and day to day tasks. I believe that having quality, inspirational and passionate teachers is essential to a school's success. To borrow John Hattie's words; teachers should build classroom climates where errors are welcome, student engagement is the norm, questioning is high and students gain reputations as effective learners. I enjoy celebrating successes and acknowledge hard work of staff, students and community and believe this is one of the contributors fundamental to a happy school environment. All staff, students and community should feel valued and appreciated at school. Community engagement and involvement in the school is important to me as Principal. I regularly consult with my community as part of school self review and encourage community engagement in the curriculum and learning programmes.");
 		}
 		function students(){
 			document.write("I am extremely delighted to announce myself as the student of Axis Higher Secondary School. The inspiring, Co-operative and friendly lectures have  enabled me to be what I am today and what I am striving for. I owe to whoever associated with AXIS for managing such congenial environment in this town for qualitative professional education. I can never forget the academic opportunities and experience that I have got through.");
+		}
+			var clock=setInterval(time,1000);
+		function time()
+		{
+			var d=new Date();
+			var t=d.toLocaleTimeString();
+			document.getElementById('id1').innerHTML=t;
 		}
 	</script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
